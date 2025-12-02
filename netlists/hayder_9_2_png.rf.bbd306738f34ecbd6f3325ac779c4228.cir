@@ -1,0 +1,8 @@
+* Auto-generated netlist from YOLO circuit detector
+.title Simple series circuit
+C1 1 2 1u
+R3 2 3 1k
+L4 3 4 1m
+C5 4 5 1u
+V6 5 0 5
+.end
