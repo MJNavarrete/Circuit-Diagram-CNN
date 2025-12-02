@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Capacitor', 'GND', 'I_dc', 'Inductor', 'Resistor', 'V_dc']
+
+roboflow:
+  workspace: iut-uf4xg
+  project: circuit-component-detection-9wiz7
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/iut-uf4xg/circuit-component-detection-9wiz7/dataset/4
